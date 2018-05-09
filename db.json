@@ -1,14 +1,45 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "pingTest1": [
+    { "ZMAC_ADD": "E1-4E-B6-B3-73-26", "ZTX": "123", "RTX":"123" },
+    { "ZMAC_ADD": "7C-5A-99-45-05-E2", "ZTX": "123", "RTX":"123" },
+    { "ZMAC_ADD": "0E-D2-05-BD-25-D9", "ZTX": "123", "RTX":"123" },
+    { "ZMAC_ADD": "A4-10-4A-A6-14-7B", "ZTX": "123", "RTX":"123" },
+    { "ZMAC_ADD": "85-11-71-38-02-CD", "ZTX": "123", "RTX":"123" },
+    { "ZMAC_ADD": "FF-C0-F2-6C-40-7C", "ZTX": "123", "RTX":"123" },
+    { "ZMAC_ADD": "CB-05-AE-E6-ED-8F", "ZTX": "123", "RTX":"123" },
+    { "ZMAC_ADD": "BB-4B-CD-56-3F-00", "ZTX": "123", "RTX":"123" },
+    { "ZMAC_ADD": "90-2F-25-79-2E-03", "ZTX": "123", "RTX":"123" },
+    {"STATUS": "Success"},
+	{"ERROR_DESC": ""}
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "pingTest2": [
+    { "ZPING_IPADD": "181.206.172.56", "ZPING_MAX": 234, "ZPING_AVE": 43, "ZPING_LOST": 0},
+    { "ZPING_IPADD": "23.187.13.131", "ZPING_MAX": 234, "ZPING_AVE": 23, "ZPING_LOST": 0},
+    { "ZPING_IPADD": "59.228.206.89", "ZPING_MAX": 234, "ZPING_AVE": 34, "ZPING_LOST": 0},
+    { "ZPING_IPADD": "157.101.120.130", "ZPING_MAX": 234, "ZPING_AVE": 34, "ZPING_LOST": 0},
+    { "ZPING_IPADD": "246.245.176.32", "ZPING_MAX": 234, "ZPING_AVE": 42, "ZPING_LOST": 0},
+    { "ZPING_IPADD": "21.13.99.110", "ZPING_MAX": 234, "ZPING_AVE": 41, "ZPING_LOST": 0},
+    { "ZPING_IPADD": "243.229.204.40", "ZPING_MAX": 234, "ZPING_AVE": 43, "ZPING_LOST": 0},
+    { "ZPING_IPADD": "18.175.96.7", "ZPING_MAX": 234, "ZPING_AVE": 43, "ZPING_LOST": 0},
+    {"STATUS": "Success"},
+	{"ERROR_DESC": ""}
   ],
-  "profile": {
-    "name": "typicode"
+  "GPS1": {
+    "ZUBX_HW_NOISE": 78,
+    "ZUBX_HW_JAMIND": 58,
+    "ZUBX_HW_AGC": 5.4,
+    "ZUBX_ESFM_GYROZ": 0.245,
+    "STATUS": "Success",
+	"ERROR_DESC": ""
+  },
+  "GPS2": {
+    "ZUBX_ESFM_GYROZ": 16.034,
+    "STATUS": "Success",
+	"ERROR_DESC": ""
+  },
+  "GPS3": {
+    "ZUBX_ESFM_GYROZ": -15.346,
+    "STATUS": "Success",
+	"ERROR_DESC": ""
   }
 }
