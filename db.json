@@ -1,13 +1,13 @@
 {
   "pingTest1": [
-    { "ZMAC_ADD": "E1-4E-B6-B3-73-26", "ZTX": "123", "RTX":"123" },
-    { "ZMAC_ADD": "7C-5A-99-45-05-E2", "ZTX": "123", "RTX":"123" },
-    { "ZMAC_ADD": "0E-D2-05-BD-25-D9", "ZTX": "123", "RTX":"123" },
-    { "ZMAC_ADD": "A4-10-4A-A6-14-7B", "ZTX": "123", "RTX":"123" },
-    { "ZMAC_ADD": "85-11-71-38-02-CD", "ZTX": "123", "RTX":"123" },
-    { "ZMAC_ADD": "FF-C0-F2-6C-40-7C", "ZTX": "123", "RTX":"123" },
-    { "ZMAC_ADD": "CB-05-AE-E6-ED-8F", "ZTX": "123", "RTX":"123" },
-    { "ZMAC_ADD": "BB-4B-CD-56-3F-00", "ZTX": "123", "RTX":"123" }
+    { "ZMAC_ADD": "E1-4E-B6-B3-73-26", "ZTX": "123", "ZRX":"123" },
+    { "ZMAC_ADD": "7C-5A-99-45-05-E2", "ZTX": "123", "ZRX":"123" },
+    { "ZMAC_ADD": "0E-D2-05-BD-25-D9", "ZTX": "123", "ZRX":"123" },
+    { "ZMAC_ADD": "A4-10-4A-A6-14-7B", "ZTX": "123", "ZRX":"123" },
+    { "ZMAC_ADD": "85-11-71-38-02-CD", "ZTX": "123", "ZRX":"123" },
+    { "ZMAC_ADD": "FF-C0-F2-6C-40-7C", "ZTX": "123", "ZRX":"123" },
+    { "ZMAC_ADD": "CB-05-AE-E6-ED-8F", "ZTX": "123", "ZRX":"123" },
+    { "ZMAC_ADD": "BB-4B-CD-56-3F-00", "ZTX": "123", "ZRX":"123" }
   ],
   "pingTest2": [
     { "ZPING_IPADD": "181.206.172.56", "ZPING_MAX": 234, "ZPING_AVE": 43, "ZPING_LOST": 0},
