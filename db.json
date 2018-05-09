@@ -7,8 +7,7 @@
     { "ZMAC_ADD": "85-11-71-38-02-CD", "ZTX": "123", "RTX":"123" },
     { "ZMAC_ADD": "FF-C0-F2-6C-40-7C", "ZTX": "123", "RTX":"123" },
     { "ZMAC_ADD": "CB-05-AE-E6-ED-8F", "ZTX": "123", "RTX":"123" },
-    { "ZMAC_ADD": "BB-4B-CD-56-3F-00", "ZTX": "123", "RTX":"123" },
-    { "ZMAC_ADD": "90-2F-25-79-2E-03", "ZTX": "123", "RTX":"123" }
+    { "ZMAC_ADD": "BB-4B-CD-56-3F-00", "ZTX": "123", "RTX":"123" }
   ],
   "pingTest2": [
     { "ZPING_IPADD": "181.206.172.56", "ZPING_MAX": 234, "ZPING_AVE": 43, "ZPING_LOST": 0},
