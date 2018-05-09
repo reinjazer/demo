@@ -31,7 +31,5 @@
   },
   "GPS3": {
     "ZUBX_ESFM_GYROZ": -15.346
-  },
-  "STATUS": "Success",
-  "ERROR_DESC": ""
+  }
 }
