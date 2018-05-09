@@ -8,9 +8,7 @@
     { "ZMAC_ADD": "FF-C0-F2-6C-40-7C", "ZTX": "123", "RTX":"123" },
     { "ZMAC_ADD": "CB-05-AE-E6-ED-8F", "ZTX": "123", "RTX":"123" },
     { "ZMAC_ADD": "BB-4B-CD-56-3F-00", "ZTX": "123", "RTX":"123" },
-    { "ZMAC_ADD": "90-2F-25-79-2E-03", "ZTX": "123", "RTX":"123" },
-    {"STATUS": "Success"},
-	{"ERROR_DESC": ""}
+    { "ZMAC_ADD": "90-2F-25-79-2E-03", "ZTX": "123", "RTX":"123" }
   ],
   "pingTest2": [
     { "ZPING_IPADD": "181.206.172.56", "ZPING_MAX": 234, "ZPING_AVE": 43, "ZPING_LOST": 0},
@@ -20,26 +18,20 @@
     { "ZPING_IPADD": "246.245.176.32", "ZPING_MAX": 234, "ZPING_AVE": 42, "ZPING_LOST": 0},
     { "ZPING_IPADD": "21.13.99.110", "ZPING_MAX": 234, "ZPING_AVE": 41, "ZPING_LOST": 0},
     { "ZPING_IPADD": "243.229.204.40", "ZPING_MAX": 234, "ZPING_AVE": 43, "ZPING_LOST": 0},
-    { "ZPING_IPADD": "18.175.96.7", "ZPING_MAX": 234, "ZPING_AVE": 43, "ZPING_LOST": 0},
-    {"STATUS": "Success"},
-	{"ERROR_DESC": ""}
+    { "ZPING_IPADD": "18.175.96.7", "ZPING_MAX": 234, "ZPING_AVE": 43, "ZPING_LOST": 0}
   ],
   "GPS1": {
     "ZUBX_HW_NOISE": 78,
     "ZUBX_HW_JAMIND": 58,
     "ZUBX_HW_AGC": 5.4,
-    "ZUBX_ESFM_GYROZ": 0.245,
-    "STATUS": "Success",
-	"ERROR_DESC": ""
+    "ZUBX_ESFM_GYROZ": 0.245
   },
   "GPS2": {
-    "ZUBX_ESFM_GYROZ": 16.034,
-    "STATUS": "Success",
-	"ERROR_DESC": ""
+    "ZUBX_ESFM_GYROZ": 16.034
   },
   "GPS3": {
-    "ZUBX_ESFM_GYROZ": -15.346,
-    "STATUS": "Success",
-	"ERROR_DESC": ""
-  }
+    "ZUBX_ESFM_GYROZ": -15.346
+  },
+  "STATUS": "Success",
+  "ERROR_DESC": ""
 }
